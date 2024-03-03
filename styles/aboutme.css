@@ -1,0 +1,14 @@
+#aboutMe {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: black;
+  /* border-style:solid; */
+  box-shadow: 2px 2px 2px 3px lightblue;
+}
+#aboutMe p {
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

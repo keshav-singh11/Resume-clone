@@ -1,0 +1,19 @@
+
+
+
+.p1 {
+  width: auto;
+  margin-left: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-decoration: underline;
+  color: rgb(234, 230, 18);
+}
+.det {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
+}

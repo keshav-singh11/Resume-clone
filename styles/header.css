@@ -1,0 +1,89 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 100;
+}
+.icon {
+  color: rgb(170, 107, 230);
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0px 1%;
+}
+.navcon {
+  font-weight: 600%;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  flex: 1;
+}
+.ret {
+  color: white;
+  display: block;
+  font-size: 16px;
+}
+.ret:hover {
+  color: hsl(75, 94%, 57%);
+}
+.header-content {
+  margin: 2%;
+  font-weight: 600;
+  padding: 1%;
+  text-align: center;
+  position: relative;
+}
+.header-content .ret {
+  max-width: 1200%;
+}
+
+.dropbtn {
+  color: white;
+  padding: 5%;
+}
+
+.dropdown-content {
+  min-width: 80%;
+  max-width: 120%;
+  padding: 0%;
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.dropdown-content a {
+  font-weight: 500;
+  text-align: center;
+  width: 98%;
+  font-size: 12px;
+  border-bottom: 0.1px dashed white;
+  text-decoration: none;
+  position: relative;
+  color: white;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  padding: 0;
+  background-color: rgb(225, 227, 207);
+  color: rgb(130, 10, 243);
+}
+
+.header-content:hover .dropdown-content {
+  display: block;
+}
+
+.header-content:hover .dropbtn {
+  color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
